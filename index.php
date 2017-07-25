@@ -2,18 +2,21 @@
 
 <html>
 	<head>
-		<title>Aerial by HTML5 UP</title>
+		<title>Index</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
 	</head>
-	<body class="loading" id="idd">
+	<body class="loading">
 		<div id="wrapper">
 			<div id="bg"></div>
 			<div id="overlay"></div>
 
 
 				<!-- Header -->
+
         <div id="wrapper2">
           <section id="main">
 						<header>
@@ -23,10 +26,31 @@
             </header>
 
 						<footer>
-							<ul class="icons">
-								<li><a href="#" class="fa-twitter">Twitter</a></li>
-								<li><a href="#" class="fa-instagram">Instagram</a></li>
-								<li><a href="#" class="fa-facebook">Facebook</a></li>
+							<ul>
+								<li><a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x"></i>
+                  </span></a>
+                </li>
+								<li><a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x"></i>
+                  </span></a>
+                </li>
+								<li><a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x"></i>
+                  </span></a>
+                </li>
+                <li><a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-viadeo fa-stack-1x"></i>
+                  </span></a>
+                </li>
 							</ul>
 						</footer>
 					</section>

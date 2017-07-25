@@ -1,11 +1,9 @@
 <footer>
     <p>Copyright &copy; WebForce3</p>
-    <ul class="copyright">
-      <li>&copy; KERMICHE Mohamed</li>
-      <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-    </ul>
 </footer>
 
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
