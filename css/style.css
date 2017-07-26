@@ -1,11 +1,20 @@
 h1 {
   color: black;
+  margin-bottom: 20px;
 }
 #navbar {
   display: none;
 }
 nav {
   display: none;
+  z-index: 1000;
+}
+html,
+body {
+  height: 100%;
+}
+.container {
+  height: 95%;
 }
 /* Reset */
 ol,
@@ -69,6 +78,7 @@ a {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: -9;
 }
 /* Header */
 @keyframes header {
@@ -198,7 +208,7 @@ header p {
     bottom: -1000px;
   }
   100% {
-    bottom: 0;
+    bottom: -150px;
   }
 }
 #main {
@@ -293,12 +303,18 @@ header p {
   content: '';
   display: block;
 }
+#menu {
+  justify-content: space-between;
+  background-color: white;
+  opacity: 0.8;
+}
 ____________________[FOOTER]____________________ footer {
-  background-color: grey;
+  z-index: 1000;
+  background-color: white;
 }
 ul {
   display: flex;
   justify-content: space-between;
+  margin-top: 3em;
   padding: 0;
-  margin-top: 5em;
 }

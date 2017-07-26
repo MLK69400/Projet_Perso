@@ -1,3 +1,4 @@
+$(document).ready(function(){
 
 window.onload = function() { document.body.className = ''; };
 window.ontouchmove = function() { return false; };
@@ -10,8 +11,17 @@ var button = document.getElementById('identite');
 button.addEventListener('click', function(){
 
   document.getElementById('wrapper').classList.add('wrapperAnime');
-  // setTimeout(function(){ location.replace("accueil.php"); }, 2000);
-  document.getElementById('menu').style.display='block';
 
+  // Fait disparaitre le wrapper aprés 2secondes
+  setTimeout(function(){ document.getElementById('wrapper').style.display='none'; }, 2000);
+  // document.getElementById('menu').style.display='block';
+
+
+
+    // $('#menu').fadeIn(2000);
+    $('#menu').css('display', 'flex').hide().fadeIn(2000);
+
+
+  });
 
 });
