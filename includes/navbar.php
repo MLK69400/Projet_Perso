@@ -1,5 +1,5 @@
 <nav class='navbar navbar-default navbar-inverse '>
-  <div class="container-fluid center-block">
+  <div class="container-fluid">
       <div class="navbar-header">
           <a class="btn btn-default navbar-btn" href="#" role="button">Compétences</a>
           <a class="btn btn-default" href="#" role="button">Experiences</a>

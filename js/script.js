@@ -1,6 +1,10 @@
 
+window.onload = function() { document.body.className = ''; };
+window.ontouchmove = function() { return false; };
+window.onorientationchange = function() { document.body.scrollTop = 0; };
+
 // On détermine l'ID de ton bouton
-button = document.getElementById('main');
+var button = document.getElementById('identite');
 
 // Au clic, on lance une fonction
 button.addEventListener('click', function(){
