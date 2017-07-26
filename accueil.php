@@ -4,7 +4,7 @@ include 'includes/header.php';
  ?>
 
 
-
+<?php header ('location: index.php') ?>
 
 
 

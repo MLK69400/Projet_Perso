@@ -9,8 +9,9 @@ var button = document.getElementById('identite');
 // Au clic, on lance une fonction
 button.addEventListener('click', function(){
 
-  document.getElementById('wrapper2').classList.add('wrapperAnime');
-  setTimeout(function(){ location.replace("accueil.php"); }, 2000);
+  document.getElementById('wrapper').classList.add('wrapperAnime');
+  // setTimeout(function(){ location.replace("accueil.php"); }, 2000);
+  document.getElementById('menu').style.display='block';
 
 
 });

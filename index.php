@@ -1,28 +1,15 @@
-<!DOCTYPE HTML>
-
 <?php
-
 $titlePage = "Index";
 include 'includes/header.php';
  ?>
-<html id="index">
-	<head>
-		<title>Index</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-	</head>
-	<body class="loading">
-		<div id="wrapper">
 			<div id="bg"></div>
 			<div id="overlay"></div>
 
 
 				<!-- Header -->
 
-        <div id="wrapper2">
+        <div id="wrapper">
           <section id="main">
 						<header id="identite">
 							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
@@ -63,6 +50,6 @@ include 'includes/header.php';
 				<!-- Footer -->
 
           <?php include "includes/footer.php" ?>
-		</div>
+
 	</body>
 </html>

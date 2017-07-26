@@ -4,8 +4,13 @@ h1 {
   color: black;
 }
 
+#navbar {
+  display: none;
+}
 
-
+nav {
+  display: none;
+}
 /* Reset */
 
 	ol, ul {
@@ -19,25 +24,8 @@ h1 {
 		overflow: hidden;
 	}
 
-		body.loading * {
-			animation: none !important;
-		}
-
 	a {
 		color: black;
-	}
-
-/* Wrapper */
-
-
-	#wrapper {
-		// animation: wrapper 3s forwards;
-		height: 100%;
-		left: 0;
-		// opacity: 0;
-		position: fixed;
-		top: 0;
-		width: 100%;
 	}
 
 /* BG */
@@ -48,13 +36,14 @@ h1 {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("../images/bgg.jpg") bottom left;
+		background: url("../images/bgg.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
 		opacity: 1;
 		position: fixed;
 		top: 0;
+    z-index: -10;
 	}
 
 
@@ -354,7 +343,7 @@ header p {
 				}
 
 		}
-    #wrapper2 {
+    #wrapper {
   		display: flex;
   		align-items: center;
   		justify-content: center;
@@ -366,11 +355,11 @@ header p {
   		z-index: 2;
   	}
 
-  		#wrapper2 > * {
+  		#wrapper > * {
   			z-index: 1;
   		}
 
-  		#wrapper2:before {
+  		#wrapper:before {
   			content: '';
   			display: block;
   		}
